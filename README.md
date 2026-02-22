@@ -8,8 +8,8 @@ The data is sourced from the official **WFTDA (Women’s Flat Track Derby Associ
 
 *   [Game 1 (Feb 07)](https://docs.google.com/spreadsheets/d/1iezkBAqF8xp0SBJ6qHzDmVzB-58u3ege/edit?usp=sharing&ouid=101467429878631028232&rtpof=true&sd=true)
 *   [Game 2 (Feb 14)](https://docs.google.com/spreadsheets/d/1BwYrGqm6aDZ3ciaP5uUl063AINyn8JMn/edit?usp=sharing&ouid=101467429878631028232&rtpof=true&sd=true)
-*   [Game 3 (Feb 15)]([https://docs.google.com](https://docs.google.com/spreadsheets/d/1ht6dmNCtIHpvqvjYNr0qmoejwHF1XA80/edit?usp=drive_link&ouid=101467429878631028232&rtpof=true&sd=true)
-*   [Game 4 (Feb 22)]([https://docs.google.com](https://docs.google.com/spreadsheets/d/1QgPoyJnfNkVFeUK61vzlhMO8zsaP7T2L/edit?usp=drive_link&ouid=101467429878631028232&rtpof=true&sd=true)
+*   [Game 3 (Feb 15)](https://docs.google.com/spreadsheets/d/1ht6dmNCtIHpvqvjYNr0qmoejwHF1XA80/edit?usp=drive_link&ouid=101467429878631028232&rtpof=true&sd=true)
+*   [Game 4 (Feb 22)](https://docs.google.com/spreadsheets/d/1QgPoyJnfNkVFeUK61vzlhMO8zsaP7T2L/edit?usp=drive_link&ouid=101467429878631028232&rtpof=true&sd=true)
 
 2. Collection Methodolog
    1. Direct Download: Each official .xlsx StatsBook was downloaded locally from the WFTDA repository.
