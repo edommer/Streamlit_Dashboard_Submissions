@@ -1,8 +1,8 @@
-### Namur Roller Derby: Performance Dashboard (Q1 2026)
+## Namur Roller Derby: Performance Dashboard (Q1 2026)
 
 This dashboard provides a detailed analysis of Namur Roller Derby performance during the first quarter of 2026. It utilizes advanced sports metrics like VTAR (Versus Team Average Rating) and Jammer Efficiency to identify impact players and track the team's competitive trajectory.
 
-## Analytical Objective
+### Analytical Objective
 The primary goal of this dashboard is to evaluate individual skater contributions relative to team performance across four sanctioned games. By visualizing the relationship between scoring efficiency and overall impact (VTAR), this tool provides actionable insights for roster sustainability and strategic development.
 
  1. Data Origin
@@ -28,7 +28,7 @@ streamlit: For dashboard structure and deployment.
 pandas: For data organization.
 plotly: For interactive visualizations (Line, Bar, Scatter, and Pie charts).
 
-## Deployment
+### Deployment
 
 This dashboard is officially deployed on the **Streamlit Community Cloud**.
 
