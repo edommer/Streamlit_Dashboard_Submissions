@@ -26,8 +26,8 @@ streamlit: For dashboard structure and deployment.
 pandas: For data organization.
 plotly: For interactive visualizations (Line, Bar, Scatter, and Pie charts).
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Deployment
-
+ Deployment
 This dashboard is deployed on Streamlit Community Cloud.
-Public URL: [https://roller-derby-performance.streamlit.app/]
-Repository: [https://github.com/edommer/Streamlit_Dashboard_Submissions]
+Public URL: https://roller-derby-performance.streamlit.app/
+GitHub Repository: https://github.com/edommer/Streamlit_Dashboard_Submissions
+
