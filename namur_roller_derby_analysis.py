@@ -87,17 +87,17 @@ with tab_trend:
     st.plotly_chart(fig_pie)
 
 with tab_detail:
-    st.header("Individual Performance breakdown")
-   
+    st.header("Individual Performance Breakdown")
     game_select = st.selectbox("Select Matchup", ["Game 1 (Feb 07)", "Game 2 (Feb 14)", "Game 3 (Feb 15)", "Game 4 (Feb 22)"])
     
-    game_map = {
-        "Game 1 (Feb 07)": df_g1, 
-        "Game 2 (Feb 14)": df_g2, 
-        "Game 3 (Feb 15)": df_g3, 
-        "Game 4 (Feb 22)": df_g4
-    }
-    active_df = game_map[game_select]
+    # Get the raw data for the selected game
+    game_map = {"Game 1 (Feb 07)": df_g1, "Game 2 (Feb 14)": df_g2, "Game 3 (Feb 15)": df_g3, "Game 4 (Feb 22)": df_g4}
+    raw_df = game_map[game_select]
+    
+
+    active_df = raw_df[raw_df['VTAR'] >= vtar_min]
+
+    col_a, col_b = st.columns(2)
     
     col_a, col_b = st.columns(2)
 with col_a:
