@@ -100,13 +100,22 @@ with tab_detail:
     active_df = game_map[game_select]
     
     col_a, col_b = st.columns(2)
-    with col_a:
-     
-        st.subheader("Jammer Efficiency")
-        fig_scatter = px.scatter(active_df[active_df['Points'] > 0], x='Lead_%', y='Points', 
-                                 hover_name='Name', size='Points', color='VTAR',
-                                 title="Lead % vs. Total Points")
-        st.plotly_chart(fig_scatter)
+with col_a:
+    st.subheader("Jammer Efficiency")
+    fig_scatter = px.scatter(
+        active_df[active_df['Points'] > 0], 
+        x='Lead_%', 
+        y='Points',
+        hover_name="Name", 
+        size='Points', 
+        color='VTAR',
+        # FIX: Forces the color bar to cover the full range of player impact
+        range_color=[active_df['VTAR'].min(), active_df['VTAR'].max()],
+        color_continuous_scale="Viridis",
+        title="Lead % vs. Total Points"
+    )
+    st.plotly_chart(fig_scatter, use_container_width=True)
+
         
     with col_b:
       
