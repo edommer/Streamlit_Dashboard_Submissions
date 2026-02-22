@@ -1,4 +1,4 @@
-## Namur Roller Derby: Performance Dashboard (Q1 2026)
+### Namur Roller Derby: Performance Dashboard (Q1 2026)
 
 This dashboard provides a detailed analysis of Namur Roller Derby performance during the first quarter of 2026. It utilizes advanced sports metrics like VTAR (Versus Team Average Rating) and Jammer Efficiency to identify impact players and track the team's competitive trajectory.
 
