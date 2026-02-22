@@ -28,9 +28,9 @@ Automated Scaling: The Streamlit st.tabs and game_map logic are designed to scal
 
 The dashboard is built using Python 3.12 and the following libraries:
 
-*streamlit: For dashboard structure and deployment.
-*pandas: For data organization.
-*plotly: For interactive visualizations (Line, Bar, Scatter, and Pie charts).
+* **streamlit:** For dashboard structure and deployment.
+* **pandas:** For data organization.
+* **plotly:** For interactive visualizations (Line, Bar, Scatter, and Pie charts).
 
 ### Deployment
 
