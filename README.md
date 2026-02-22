@@ -25,9 +25,11 @@ The dashboard is built using Python 3.12 and the following libraries:
 streamlit: For dashboard structure and deployment.
 pandas: For data organization.
 plotly: For interactive visualizations (Line, Bar, Scatter, and Pie charts).
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
- Deployment
-This dashboard is deployed on Streamlit Community Cloud.
-Public URL: https://roller-derby-performance.streamlit.app/
-GitHub Repository: https://github.com/edommer/Streamlit_Dashboard_Submissions
+
+## Deployment
+
+This dashboard is officially deployed on the **Streamlit Community Cloud**.
+
+*   **Public URL:** [https://roller-derby-performance.streamlit.app/](https://roller-derby-performance.streamlit.app/)
+*   **GitHub Repository:** [https://github.com/edommer/Streamlit_Dashboard_Submissions](https://github.com/edommer/Streamlit_Dashboard_Submissions)
 
